@@ -1,41 +1,31 @@
 ### README.md
+Personal Account on https://www.nokturn-beauty.ru/
 
-Личный Кабинет на https://www.nokturn-beauty.ru/
+Project Objective: 
+Create a personal account for users of the Nokturn Beauty website to provide them with a tool for managing personal data, client card (CC) balance, and purchase history. 
+The personal account will be available on both the desktop and mobile versions of the website, similar to the functionality presented on the site https://lk.mozaika-shop.ru/lk.
 
-Цель проекта
-Создать личный кабинет для пользователей сайта Nokturn Beauty, чтобы предоставить им инструмент для управления информацией о личных данных, балансе клиентской карты (КК) и историей покупок. Личный кабинет будет доступен как на десктопной, так и на мобильной версиях сайта, аналогично функционалу, представленному на сайте https://lk.mozaika-shop.ru/lk.
+Current Status: 
+Currently, customers have the ability to obtain and activate a client card at Nokturn stores. Procedures for accruing and deducting bonus points from the card have also been developed. 
+However, users can only check their card balance in the store by contacting a salesperson.
 
+Tasks: 
+Create a personal account on the website where users can: View information about their personal data. Check their client card balance. Review purchase history. Functional Requirements
 
-Текущее состояние
-На данный момент у покупателей есть возможность получить и активировать клиентскую карту в магазинах "Ноктюрн". Также разработаны процедуры для начисления и списания бонусных баллов с карты. Однако пользователи могут узнать баланс своей карты только в магазине, обратившись к продавцу.
+Registration and Authorization: 
+Users must be able to register or change their phone number by incoming phone number or SMS code. Ability to recover the password via email.
 
-Задачи
-Создать личный кабинет на сайте, где пользователи смогут:
-Просматривать информацию о своих персональных данных.
-Проверять баланс своей клиентской карты.
-Ознакомиться с историей покупок.
-Функциональные требования
+User Profile: 
+View and edit personal information (Full Name, email address, phone number). Information about the client card (CC) and current balance.
 
+Purchase History: 
+View purchase history, including date, amount, and status (successful/canceled).
 
-Регистрация и авторизация
-Пользователи должны иметь возможность зарегистрироваться или сменить номер телефона по входящему номеру телефона или по смс-коду.
-Возможность восстановления пароля через электронную почту.
+CC Information Block: 
+Information about accrued and deducted points from the CC. Ability to receive notifications about important events related to the CC.
 
+Technical Requirements: 
+Technology Stack: Frontend: Vue.js for creating the user interface. Backend: Open-source project Saleor, implemented on Django and GraphQL for processing requests and managing data. 
+Authentication and Security: 
+Use of JWT (JSON Web Token) for managing user sessions.
 
-Профиль пользователя
-Просмотр и редактирование личной информации (ФИО, адрес электронной почты, номер телефона).
-Информация о клиентской карте (КК) и текущем балансе.
-
-История покупок
-Просмотр истории покупок, включая дату, сумму и статус (успешно/отменено).
-
-Блок информации о КК
-Информация о начисленных и списанных баллах с КК.
-Возможность получения уведомлений о важных событиях, связанных с КК.
-
-Технические требования
-Стек технологий
-Frontend: Vue.js для создания пользовательского интерфейса.
-Backend: Open source проект Saleor, выполненный на Django и GraphQL для обработки запросов и управления данными.
-Аутентификация и безопасность
-Использование JWT (JSON Web Token) для управления сессиями пользователей.
