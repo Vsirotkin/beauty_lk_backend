@@ -1,12 +1,11 @@
 ### README.md
-Personal Account on https://www.nokturn-beauty.ru/
 
 Project Objective: 
-Create a personal account for users of the Nokturn Beauty website to provide them with a tool for managing personal data, client card (CC) balance, and purchase history. 
-The personal account will be available on both the desktop and mobile versions of the website, similar to the functionality presented on the site https://lk.mozaika-shop.ru/lk.
+Create a personal account for users of a (online cosmetics shop) website to provide them with a tool for managing personal data, client card (CC) balance, and purchase history. 
+The personal account will be available on both the desktop and mobile versions of the website.
 
 Current Status: 
-Currently, customers have the ability to obtain and activate a client card at Nokturn stores. Procedures for accruing and deducting bonus points from the card have also been developed. 
+Currently, customers have the ability to obtain and activate a client card (discount loyalty card). Procedures for accruing and deducting bonus points from the card have also been developed. 
 However, users can only check their card balance in the store by contacting a salesperson.
 
 Tasks: 
